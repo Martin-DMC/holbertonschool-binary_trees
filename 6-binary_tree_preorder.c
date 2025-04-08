@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 /**
- * binary_tree_preorder - imprime el valor que contienen los nodos
+ * binary_tree_preorder - imprime el valor de los nodos pre-orden
  * @tree: puntero al padre
  * @func: funcion que imprime numeros
  */
