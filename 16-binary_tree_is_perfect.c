@@ -20,13 +20,14 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * is_perfect_recursive - Verifica recursivamente si un arbol binario es perfecto
+ * is_perfect_recursive-Verifica recursivamente si un arbol binario es perfecto
  * @tree: puntero al nodo raiz del arbol
  * @height: Altura total del arbol
  * @level: Nivel actual
  * Return: 1 si el arbol es perfecto, 0 si no lo es
  */
-int is_perfect_recursive(const binary_tree_t *tree, size_t height, size_t level)
+int is_perfect_recursive(const binary_tree_t *tree, size_t height,
+		size_t level)
 {
 	if (tree == NULL)
 		return (1);
